@@ -1,9 +1,5 @@
-import { fileURLToPath } from "url";
-import { dirname, relative } from "path";
+import { relative } from "path";
 
-// Get current working directory for ES modules
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 const cwd = process.cwd();
 
 /**
